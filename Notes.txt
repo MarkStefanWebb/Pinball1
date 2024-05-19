@@ -1,0 +1,3 @@
+source ~/mpfenv/bin/activate 
+#### Directory for FirePower development ###
+cd Documents/GitHub/Pinball1
