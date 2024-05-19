@@ -1,0 +1,136 @@
+#show_version=6
+
+- duration: 5s
+  slides:
+    press_start:
+      widgets:
+      - type: Text
+        text: PRESS "S"
+        color: red
+        x: 190
+        y: 670
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: 0.5s
+          - property: opacity
+            value: 1
+            duration: 0.5s
+            repeat: true
+      - type: Text
+        text: to Start
+        color: red
+        x: 800
+        y: 670
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: true
+      - type: Text
+        text: FREE PLAY
+        color: green
+        y: 40
+        x: 300
+        anchor_y: bottom
+      - type: image
+        image: FirePowerBackglass
+        scale: 1.0
+        key: bglass
+      transition:
+        type: move_in
+        duration: 1s
+        direction: bottom
+
+- duration: 3
+  slides:
+    mission_pinball:
+      widgets:
+      - type: Text
+        text: FIREPOWER
+        color: red
+        font_size: 60
+        anchor_x: center
+        anchor_y: bottom
+      - type: Text
+        text: by MISSION PINBALL
+        color: red
+        anchor_x: center
+        anchor_y: top
+      transition:
+        type: move_in
+        duration: 1s
+        direction: top
+
+- duration: 5s
+  slides:
+    press_start:
+      widgets:
+      - type: Text
+        text: PRESS "S"
+        color: red
+        x: 190
+        y: 670
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: 0.5s
+          - property: opacity
+            value: 1
+            duration: 0.5s
+            repeat: true
+      - type: Text
+        text: to Start
+        color: red
+        x: 800
+        y: 670
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: true
+      - type: Text
+        text: "Last Game:(machine|player1_score)"
+        color: green
+        y: 40
+        x: 320
+        anchor_y: bottom
+      - type: image
+        image: FirePowerBackglass
+        scale: 1.0
+        key: bglass
+      transition:
+        type: move_in
+        duration: 1s
+        direction: bottom
+
+- duration: 3
+  slides:
+    mission_pinball:
+      widgets:
+      - type: Text
+        text: FIREPOWER
+        color: red
+        font_size: 60
+        anchor_x: center
+        anchor_y: bottom
+      - type: Text
+        text: by MISSION PINBALL
+        color: red
+        anchor_x: center
+        anchor_y: top
+      transition:
+        type: move_in
+        duration: 1s
+        direction: top
+
