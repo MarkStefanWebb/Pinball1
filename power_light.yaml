@@ -1,0 +1,7 @@
+#show_version=6
+
+#power_light
+
+- duration: 1
+  lights:
+    l_power1: red
